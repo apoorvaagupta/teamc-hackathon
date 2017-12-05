@@ -636,7 +636,20 @@ a:focus, a:hover {
   font-size: 20px;
   margin-left: 3px;
 }
+.hero-area .NSITvideo-button{
+    position: absolute;
+    top:15px;
+    right:15px;
+}
+.hero-area .NSITvideo-button img{
+    width:130px;
+}
+.hero-area .TEAMCvideo-button{
+    position: absolute;
+    top:0;
+    left:0;
 
+}
 .hero-area .block h1 {
   font-size: 90px;
   color: #fff;
@@ -802,6 +815,10 @@ a:focus, a:hover {
   color: #afbac4;
 }
 
+#tcLog1{
+    width:150px;
+    margin-top:-15%;
+}
 /*=================================================================
   About us 2 section
 ==================================================================*/
@@ -836,16 +853,22 @@ a:focus, a:hover {
 
 .call-to-action h2 {
   font-weight: 700;
-  color: #444;
+  color: white;
 }
 
 .call-to-action p {
   font-size: 16px;
-  color: #666;
+  color: white;
 }
 
 .call-to-action .btn-main {
   margin-top: 20px;
+}
+.bg-1{
+    background: url('../images/Hacking.jpg')
+}
+.bg-1::before{
+    background: rgba(0,0,0,0.63)
 }
 
 /*=================================================================
