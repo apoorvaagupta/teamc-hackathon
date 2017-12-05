@@ -57,6 +57,21 @@ jQuery(function ($) { "use strict";
     fixedContentPos: false,
     fixedBgPos: true
 });
+
+/* DIPESH */
+//FAQ
+function handleTabsFAQ() {
+        if($('#tabs-faq').length){
+            var tabs = $('#tabs-faq');
+            tabs.find('a').on('click', function () {
+                tabs.find('.fa-angle-right').removeClass('fa-angle-right').addClass('fa-plus');
+                $(this).find('.fa').removeClass('fa-plus').addClass('fa-angle-right');
+            });
+        }
+    }
+handleTabsFAQ();
+/* / DIPESH*/
+
 	/* ========================================================================= */
 	/*	Portfolio Filtering Hook
 	/* =========================================================================  */

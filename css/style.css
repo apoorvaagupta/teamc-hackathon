@@ -2167,3 +2167,187 @@ blockquote {
     color:#57cbcc !important;
 }
 /*# sourceMappingURL=maps/style.css.map */
+
+/*DIPESH EDITS*/
+#tabs-faq li {
+    margin: 10px;
+}
+
+.section-title {
+    position: relative;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 1;
+    margin: 0 0 40px 0;
+    z-index: 0;
+    text-transform: uppercase;
+    color: #fff;
+    display: table;
+    width: 100%;
+}
+.section-title small {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1;
+    text-transform: none;
+    color: #fff;
+}
+.section-title .icon-inner {
+    display: table-cell;
+    width: 70px;
+}
+.section-title .title-inner {
+    display: table-cell;
+    padding-bottom: 2px;
+    vertical-align: middle;
+}
+
+.image .section-title,
+.image .section-title small,
+.dark .section-title,
+.dark .section-title small,
+.color .section-title,
+.color .section-title small {
+    color: #ffffff;
+}
+.color .section-title:after {
+    color: #141f23;
+}
+
+.section-title .fa-stack {
+    width: 50px;
+    height: 57px;
+    line-height: 57px;
+    margin-right: 20px;
+}
+.section-title .fa-stack .fa {color: #ffffff;}
+.color .section-title .fa-stack .fa {color: #57cbcc;}
+.section-title .rhex {background-color: #57cbcc;}
+.color .section-title .rhex {background-color: #ffffff;}
+.color .section-title .crcle {background-color: #ffffff;}
+.color .section-title .wohex {background-color: #ffffff;}
+
+
+.row.faq .tab-content:before {
+    border-right-color: #435469;
+}
+
+.row.faq .tab-content:after {
+    border-right-color: #102033;
+}
+.faq ul{
+  font-size: 16px;
+}
+.row.faq .nav li a {
+    border-color: #435469;
+    background-color: #1c2b3d;
+    color: #eff6ff;
+}
+
+.row.faq .tab-content .fa {
+    font-size: 18px;
+}
+.row.faq .nav {}
+.row.faq .nav li + li {
+    margin-top: 20px;
+}
+.row.faq .nav li a {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: solid 1px #435469;
+    background-color: #fdfdfd;
+    color: #374146;
+}
+.row.faq .nav li.active a,
+.row.faq .nav li a:hover {
+    background-color: #57cbcc;
+    border-color: #214760;
+    font-weight: bold;
+}
+.row.faq .nav li a .fa {
+    width: 20px;
+    text-align: center;
+    margin-right: 15px;
+    margin-top: 3px;
+    float: left;
+}
+.row.faq .nav li a .faq-inner {
+    display: block;
+    overflow: hidden;
+}
+ .section-title .fa-stack .fa {
+    color: #ffffff;
+}
+
+ .color .section-title .fa-stack .fa {
+    color: #ffffff;
+}
+
+ .section-title .rhex {
+    background-color: #57cbcc;
+}
+ .color .section-title .rhex {
+    background-color: #57cbcc;
+}
+.section-title .fa-stack .fa {
+    color: #ffffff;
+}
+.section-title .fa-stack {
+    width: 50px;
+    height: 57px;
+    line-height: 57px;
+    margin-right: 20px;
+}
+.visible .fa {
+    visibility: visible;
+}
+
+.rhex {
+    background-color: #57cbcc;
+    margin-top: 14px;
+    width: 50px;
+    height: 28px;
+    border-radius: 2px;
+}
+.rhex:before,
+.rhex:after {
+    position: absolute;
+    top: 0; left: 0;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background-color: inherit;
+    content: '';
+}
+.rhex:before {
+    -webkit-transform: rotate(60deg);
+    -moz-transform:    rotate(60deg);
+    -ms-transform:     rotate(60deg);
+    -o-transform:      rotate(60deg);
+    transform:         rotate(60deg);
+}
+.rhex:after {
+    -webkit-transform: rotate(-60deg);
+    -moz-transform:    rotate(-60deg);
+    -ms-transform:     rotate(-60deg);
+    -o-transform:      rotate(-60deg);
+    transform:         rotate(-60deg);
+}
+
+.section-title .rhex {
+    background-color: #57cbcc;
+}
+
+.row.faq .tab-content {
+    font-size: 15px;
+    line-height: 24px;
+    border-radius: 12px;
+    background-color: #fdfdfd;
+    padding: 30px;
+    position: relative;
+    margin-top: 10px;
+}
+
+/* /// Dipesh edits ends*/
