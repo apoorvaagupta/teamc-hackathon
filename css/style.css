@@ -844,6 +844,11 @@ a:focus, a:hover {
   font-weight: 600;
 }
 
+/*changes made by pratyush*/
+.portfolio-block>h4>color{
+    color:#57cbcc !important;
+}
+/*changes end*/
 /*=================================================================
  Call To Action 1
 ==================================================================*/
@@ -2158,5 +2163,7 @@ blockquote {
 .form-group:last-child input {
   margin: 0;
 }
-
+.portfolio-block>h4>span.color{
+    color:#57cbcc !important;
+}
 /*# sourceMappingURL=maps/style.css.map */

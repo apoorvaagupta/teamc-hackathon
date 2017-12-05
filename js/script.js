@@ -1,9 +1,9 @@
 jQuery(function ($) { "use strict";
-	
+
 	/* ========================================================================= */
 	/*	Page Preloader
 	/* ========================================================================= */
-	
+
 	window.onload = function () {
 		document.getElementById('preloader').style.display = 'none';
 	}
@@ -12,15 +12,15 @@ jQuery(function ($) { "use strict";
 	/* ========================================================================= */
 	/*	Post image slider
 	/* ========================================================================= */
-	
+
 	$("#post-thumb, #gallery-post").slick({
 		infinite: true,
 		arrows:false,
 		autoplay: true,
   		autoplaySpeed: 4000
-		
+
 	});
-	
+
 	$("#features").slick({
 		infinite: true,
 		arrows:false,
@@ -37,7 +37,7 @@ jQuery(function ($) { "use strict";
 	$("#navigation").sticky({
 		topSpacing : 0
 	});
-	
+
 
 	/* ========================================================================= */
 	/*	Magnific popup
@@ -62,11 +62,11 @@ jQuery(function ($) { "use strict";
 	/* =========================================================================  */
 
   	var mixer = mixitup('.portfolio-items-wrapper');
-	
+
 	/* ========================================================================= */
 	/*	Testimonial Carousel
 	/* =========================================================================  */
- 
+
 	//Init the carousel
 	$("#testimonials").slick({
 		infinite: true,
@@ -75,7 +75,7 @@ jQuery(function ($) { "use strict";
   		autoplaySpeed: 4000
 	});
 
-
+	$('#phase1').click();
 
 
 
@@ -101,10 +101,10 @@ jQuery(function ($) { "use strict";
 		where VARIABLE is the variable we are checking (like name, email),
 		length is a JavaScript function to get the number of characters.
 		And as you can see if the num of characters is 0 we set the error
-		variable to true and show the name_error div with the fadeIn effect. 
+		variable to true and show the name_error div with the fadeIn effect.
 		if it's not 0 then we fadeOut the div( that's if the div is shown and
-		the error is fixed it fadesOut. 
-		
+		the error is fixed it fadesOut.
+
 		The only difference from these checks is the email checking, we have
 		email.indexOf('@') which checks if there is @ in the email input field.
 		This JavaScript function will return -1 if no occurrence have been found.*/
@@ -304,4 +304,3 @@ jQuery(function ($) { "use strict";
 	}
 
 	google.maps.event.addDomListener(window, "load", initialize);
-
