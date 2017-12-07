@@ -9,6 +9,7 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 /*=== MEDIA QUERY ===*/
 @import url("https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:300,400,600");
+@import url('https://fonts.googleapis.com/css?family=VT323');
 html {
   background-color: #353b43;
   color: #737f8a;
@@ -281,10 +282,16 @@ a:focus, a:hover {
 .section {
   padding: 100px 0;
 }
+#testimonial{
+    height:120vh;
+}
 
 @media (max-width: 480px) {
   .section {
     padding: 50px 0;
+  }
+  #testimonial{
+      height:200vh;
   }
 }
 
@@ -620,6 +627,7 @@ a:focus, a:hover {
 .hero-area .block {
   text-align: center;
   z-index: 99;
+  width:70%;
 }
 
 .hero-area .block .video-button {
@@ -651,11 +659,12 @@ a:focus, a:hover {
 
 }
 .hero-area .block h1 {
-  font-size: 90px;
-  color: #fff;
+  font-size: 115px;
+  color: #00acc1;
   text-transform: capitalize;
   font-weight: 700;
   margin-bottom: 20px;
+  font-family: 'VT323',monospace;
 }
 
 @media (max-width: 480px) {
@@ -2349,5 +2358,13 @@ blockquote {
     position: relative;
     margin-top: 10px;
 }
-
+.color{
+    color:#57cbcc
+}
+.service-block{
+    height:400px;
+}
+.portfolio-block .img-responsive{
+    height:40vh;
+}
 /* /// Dipesh edits ends*/
