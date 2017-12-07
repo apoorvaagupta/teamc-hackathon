@@ -20,6 +20,7 @@
 
 		<!-- CSS
 		================================================== -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<!-- Fontawesome Icon font -->
         <link rel="stylesheet" href="plugins/themefisher-font/style.css">
 		<!-- bootstrap.min css -->
@@ -65,14 +66,26 @@ Welcome Slider
 ==================================== -->
 
 <section class="hero-area">
+    <div class="top-logo1">
+        <img src='images/nsit-white.jpg'>
+    </div>
+    <div class="top-logo2">
+        <img src='images/teamc-logo.jpg'>
+    </div>
+    <div class="video-button NSITvideo-button">
+        <img src='images/logos/TC LOGO.png' />
+    </div>
+    <div class="video-button TEAMCvideo-button">
+        <img src='images/logos/NSIT-Logo.png' />
+    </div>
 	<div class="block">
 		<div class="video-button">
 			<img src='images/HACKEAM.png' />
-
 		</div>
 		<h1>HACKEAM-18</h1>
-		<p>Short description to be added if reqd</p>
-		<a data-scroll href="#services" class="btn btn-transparent">Explore Us</a>
+        <p>Trek. Report. Hack. Adapt. Achieve</p>
+		<!-- <p><span class="color">T</span>rek/. <span class="color">E</span>xplore. <span class="color">A</span>nalyse. <span class="color">M</span>odel. <span class="color">C</span>onquer</p> -->
+		<a data-scroll href="#about" class="btn btn-transparent">Explore Us</a>
 	</div>
 </section>
 
@@ -92,8 +105,8 @@ Welcome Slider
                 <!-- /responsive nav button -->
 
                 <!-- logo -->
-                <a class="navbar-brand logo" href="#body">
-                    <img src="images/HACKEAM.png" alt="Website Logo" />
+                <a class="navbar-brand logo" href='#'>
+                    <img src="images/HACKEAM.png" alt="Hackeam" />
                     <!-- <svg width="40px" height="40px" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                             <g id="Group" transform="translate(2.000000, 2.000000)" stroke="#57CBCC" stroke-width="3">
@@ -112,12 +125,17 @@ Welcome Slider
             <ul id="nav" class="nav navbar-nav navigation-menu">
                 <li><a data-scroll href="#body">Home</a></li>
                 <li><a data-scroll href="#about">About Us</a></li>
-                <li><a data-scroll href="#services">Timeline</a></li>
-                <li><a data-scroll href="#portfolio">Register</a></li>
-                <li><a data-scroll href="#our-team">Treks</a></li>
-                <li><a data-scroll href="#pricing">Our Sponsors</a></li>
-                <!-- <li><a data-scroll href="#blog">Blog</a></li> -->
+                <li><a data-scroll href="#register">Register</a></li>
+                <li><a data-scroll href="#trek">Treks</a></li>
+                <li><a data-scroll href="#timeline">Timeline</a></li>
+                <li><a data-scroll href="#phases123">Phases</a></li>
+                <li><a data-scroll href="#sponsors">Sponsors</a></li>
+
+                <li><a data-scroll href="#team">Team</a></li>
+                <li><a data-scroll href="#rules">Rules</a></li>
+                <li><a data-scroll href="#FAQS">FAQs</a></li>
                 <li><a data-scroll href="#contact-us">Contact Us</a></li>
+                <!-- <li><a data-scroll href="#blog">Blog</a></li> -->
             </ul>
         </nav>
         <!-- /main nav -->
@@ -131,60 +149,59 @@ Welcome Slider
 <!--
 		Start About Section
 		==================================== -->
-		<section class="bg-one about section">
-			<div class="container">
+		<section class="bg-one about section"id='about'>
+			<div class="container" >
 				<div class="row">
 
 					<!-- section title -->
 					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-						<h2>About <span class="color">Us</span> </h2>
+						<h2 >About <span class="color">Us</span> </h2>
 						<div class="border"></div>
 					</div>
 					<!-- /section title -->
 
 					<!-- About item -->
-					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
+					<div class="col-md-12 text-center wow fadeInUp" data-wow-duration="500ms" >
 						<div class="block">
 							<div class="icon-box">
-								<i class="tf-tools"></i>
+								<img id="tcLog1" src="images/logos/TC LOGO.png"/>
+                                <!-- <h6>TEAMClogo to be inserted<h6> -->
 							</div>
+
 							<!-- Express About Yourself -->
 							<div class="content text-center">
-								<h3 class="ddd">We're Creative</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos</p>
+								<h3 class="ddd">TEAMC-18</h3>
+								<p>The International Conference, Towards Extensible and Adaptable Methods in Computing – TEAMC 2018, will be held during 26-28 March, 2018 under the aegis of Netaji Subhas Institute of Technology (NSIT), New Delhi. This conference will provide an excellent opportunity to researchers, practitioners and students to share ideas, discuss best practices and collaborate together to solve problems in convergent domains of computing that strive towards extensibility and adaptability.
+<br><br>
+TEAMC 2018 includes Agile Software Development, Data Management, Web Intelligence, Computing in Education and Machine Learning as its tracks.
 							</div>
 						</div>
 					</div>
 					<!-- End About item -->
 
 					<!-- About item -->
-					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
-						<div class="block">
+					<div class="col-md-6 col-md-offset-3 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms" >
+						<div class="block" style="background:white">
 							<div class="icon-box">
-								<i class="tf-strategy"></i>
+								<!-- <i class="tf-strategy"></i> -->
+                                <img src='images/HACKEAM.png' width=100px style="margin-top:-15%"/>
+
 							</div>
 							<!-- Express About Yourself -->
-							<div class="content text-center">
-								<h3>We're Professional</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos</p>
+							<div class="content text-center" style="color:black">
+								<h3 style="color:black">Our Objective</h3>
+								<p>The main objective of this hackathon is to sensitize students and professionals about existing problems of the under privileged and lesser developed sections of our society and providing a platform whereby
+                                     they can proactively develop and showcase technological
+                                     solutions for these challenges. <br>
+                                     The Hackathon will be held in phases after completion
+                                 of which worthy teams will get a chance to present their
+                                 experience , product and report in the esteemed TEAMC conference</p>
 							</div>
 						</div>
 					</div>
 					<!-- End About item -->
 
 					<!-- About item -->
-					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-						<div class="block kill-margin-bottom">
-							<div class="icon-box">
-								<i class="tf-anchor2"></i>
-							</div>
-							<!-- Express About Yourself -->
-							<div class="content text-center">
-								<h3>We're Genius</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos</p>
-							</div>
-						</div>
-					</div>
 					<!-- End About item -->
 
 				</div> 		<!-- End row -->
@@ -195,14 +212,12 @@ Welcome Slider
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-6 padding-0 ">
-				<img class="img-responsive" src="images/about/about-business-man.jpg" alt="">
+				<img class="img-responsive" src="images/about/about-business-man.jpg" alt="" style="height:80vh;">
 			</div>
 			<div class="col-md-6">
 				<div class="content-block">
-					<h2>We’re A Digital Design Agency.</h2>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi.</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis eveniet vel et mollitia nemo corporis sed ut, exercitationem incidunt, rerum nam doloremque quos ratione doloribus, officiis adipisci error quasi soluta?</p>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, magnam.</p>
+					<h2>We’re A Different Hackathon</h2>
+					<p>HACKEAM, an unconventional yet efficacious hackathon, is pivotal in our mission to bolster research, development and implementation of extensible and adaptable methods of computing. The unusual hackathon will see teams preparing research papers while attempting to obtain solutions to real-world complexities. The hackathon as a whole is an all-round experience with the teams undergoing treks, interacting with stakeholders, reporting their observations, coding and designing their solutions and writing a paper.</p>
 					<div class="row">
 						<div class="col-md-6">
 							<div class="media">
@@ -210,8 +225,8 @@ Welcome Slider
 									<i class="tf-circle-compass"></i>
 								</div>
 								<div class="media-body">
-									<h4 class="media-heading">SEO Optimized</h4>
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe</p>
+									<h4 class="media-heading">Paper oriented</h4>
+									<p>A primary aim of the hackathon is to promote the teams in publishing and presenting papers on their adaptable solutions. After careful consideration, selected teams will be allowed to present their solutions to an international audience during the actual conference and publish them in an indexed journal under ISBN.</p>
 								</div>
 							</div>
 						</div>
@@ -221,8 +236,8 @@ Welcome Slider
 									<i class="tf-hotairballoon"></i>
 								</div>
 								<div class="media-body">
-									<h4 class="media-heading">Easy Customization</h4>
-									<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus </p>
+									<h4 class="media-heading">We've got 'treks'</h4>
+									<p>The initial phase of the hackathon will be oriented towards a practical approach focusing on field visits which will see the teams undergo interactive treks at various places of interest, exploring challenges in rural development, healthcare and educational sector.</p>
 								</div>
 							</div>
 						</div>
@@ -236,13 +251,15 @@ Welcome Slider
 <!--
 Start Call To Action
 ==================================== -->
-<section class="call-to-action section-sm bg-1 overly">
+<section id="register"class="call-to-action section-sm bg-1 overly">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<h2>Great Design & Incredible Features</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tenetur odio impedit incidunt? <br> Omnis accusantium ea reiciendis, fugit commodi nostrum.</p>
-				<a href="#" class="btn btn-main">Start a project with us</a>
+				<h2>Register</h2>
+				<p>
+				    Register in this new unique and exciting hackathon o win prizes worth a ton.
+				</p>
+                <a href="" class="btn btn-main">Coming Soon</a>
 			</div>
 		</div> 		<!-- End row -->
 	</div>   	<!-- End container -->
@@ -251,87 +268,88 @@ Start Call To Action
 <!-- Start Services Section
 ==================================== -->
 
-<section id="services" class="bg-one section">
+<section id="trek" class="bg-one section">
 	<div class="container">
 		<div class="row">
 
 			<!-- section title -->
 			<div class="title text-center wow fadeIn" data-wow-duration="500ms">
-				<h2>Our <span class="color">Services</span></h2>
+				<h2>Our <span class="color">Treks</span></h2>
 				<div class="border"></div>
 			</div>
 			<!-- /section title -->
 
             <!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
+			<article class="col-md-4 col-md-offset-1 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="tf-globe"></i>
 					</div>
-					<h3>WordPress Theme</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+					<h3>Rural and Sub-Urban</h3>
+					<p>As the technology races to add more comfort and sohestication to our lifestyles, there still exist people amongst us who dont even have the basic necessities of life.as a responsible citizen of the society, lets work for the upliftment of those sections. pay a visit to the rural areas, empathize with the problems they face and innovate     to create a solution that could better the lifes of many.</p>
 				</div>
 			</article>
             <!-- End Single Service Item -->
 
             <!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+			<article class="col-md-4 col-sm-6 col-md-offset-2 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="tf-ion-laptop"></i>
 					</div>
-					<h3>Responsive Design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+					<h3>Healthcare</h3>
+					<p>The very motive behind technology has been betterment of human life.using the current level of advancement, lets explore the healthcare sector in india.Pay a visit to any healthcare centre and research through the possibilities as well as existing loopholes to devise solutions for uplifting the quality of healthcare services.</p>
 				</div>
 			</article>
             <!-- End Single Service Item -->
 
             <!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+			<!-- <article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="tf-genius"></i>
 					</div>
-					<h3>Media &amp; Advertisement</h3>
+					<h3>Waste Management</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
-			</article>
+			</article> -->
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
+			<article class="col-md-4 col-md-offset-1 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="tf-dial"></i>
 					</div>
-					<h3>Graphic Design</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+					<h3>Education</h3>
+					<p>Been to schools and other educational institutions throughout your life, let's take another trip down the memory lane for what we call the educational trek. Pay an institute a visit, interact and study to devise any problem you deem fit for your perusal. Give us a smart solution and triumph.</p>
 				</div>
 			</article>
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
+			<article class="col-md-4 col-md-offset-2 col-sm-6  col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
 				<div class="service-block text-center">
 					<div class="service-icon text-center">
 						<i class="tf-target3"></i>
 					</div>
-					<h3>Apps Development</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
+					<h3>Government Offices</h3>
+                    <p>The worries of common man while dealing with the bureaucracy is well known.  From standing in really long lines to never geting files done on time,   the list is long. Pay a visit to any government office, understand its working and innovate to find solutions to these glitches.</p>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p> -->
 				</div>
 			</article>
 			<!-- End Single Service Item -->
 
 			<!-- Single Service Item -->
-			<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
+			<!-- <article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
 				<div class="service-block text-center kill-margin-bottom">
 					<div class="service-icon text-center">
 						<i class="tf-lifesaver"></i>
 					</div>
-					<h3>Networking</h3>
+					<h3>Triposse(another trek)</h3>
 					<p>Lorem ipsum dolor sit amet, consectetur.. Sed id lorem eget orci dictum facilisis vel id tellus. Nullam iaculis arcu at mauris dapibus consectetur.</p>
 				</div>
-			</article>
+			</article> -->
 			<!-- End Single Service Item -->
 
 		</div> 		<!-- End row -->
@@ -342,67 +360,82 @@ Start Call To Action
 <!-- Start Team Skills
 		=========================================== -->
 
-		<section id="team-skills" class="parallax-section section section-bg overly">
+		<section id="timeline" class="parallax-section section section-bg overly">
 			<div class="container">
 				<div class="row" >
 					<!-- section title -->
 					<div class="col-md-12">
 						<div class="title text-center">
-							<h2>Our <span class="color">Skills</span></h2>
+							<h2>The <span class="color">TimeLine</span></h2>
 							<div class="border"></div>
 						</div>
 					</div>
 					<!-- /section title -->
 				</div>  		<!-- End row -->
 				<div class="row">
-					<div class="col-md-6">
-						<h2>We’ve skilled in wide range of web and <br>
-							Other digital market tools.</h2>
-							<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis magni explicabo cum aperiam recusandae sunt accusamus totam. Quidem quos fugiat sapiente numquam accusamus quas hic, itaque in libero reiciendis tempora!</p>
+					<div class="col-md-6" style="margin-top:10vh">
+						<h2>The Hackathon is held in phases over a period of 2 months.</h2>
+							<p>Each phase's winners will be awarded with numerous goodies,swags and cash prizes.<br>HACKEAM will take you on an exciting journey of how actually a product is built</p>
 							<img class="img-responsive" src="images/about/company-growth.png" alt="">
 					</div>
 					<div class="col-md-6">
 						<ul class="skill-bar">
 							<li>
-								<p><span>01-</span> Business Development</p>
+								<p><span>01-</span> Register</p>
 								<div class="progress">
 									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:90%">
+									aria-valuemin="0" aria-valuemax="100" style="width:14%">
 									</div>
 								</div>
 							</li>
 							<li>
-								<p><span>02-</span> Analysis</p>
+								<p><span>02-</span>Photographic Journal(Phase 1)</p>
 								<div class="progress">
 									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:70%">
+									aria-valuemin="0" aria-valuemax="100" style="width:28%">
 									</div>
 								</div>
 							</li>
 							<li>
-								<p><span>03-</span> Design</p>
+								<p><span>03-</span>Results of Phase 1</p>
 								<div class="progress">
 									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:85%">
+									aria-valuemin="0" aria-valuemax="100" style="width:42%">
 									</div>
 								</div>
 							</li>
 							<li>
-								<p><span>04-</span> IOS Development</p>
+								<p><span>04-</span>Its time to Hack</p>
 								<div class="progress">
 									<div class="progress-bar" role="progressbar" aria-valuenow="70"
-									aria-valuemin="0" aria-valuemax="100" style="width:60%">
+									aria-valuemin="0" aria-valuemax="100" style="width:56%">
 									</div>
 								</div>
 							</li>
 							<li>
-									<p><span>04-</span> Andriod Development</p>
+									<p><span>05-</span>Results fo Hackathon</p>
 									<div class="progress">
 										<div class="progress-bar" role="progressbar" aria-valuenow="70"
-										aria-valuemin="0" aria-valuemax="100" style="width:94%">
+										aria-valuemin="0" aria-valuemax="100" style="width:70%">
 										</div>
 									</div>
 								</li>
+                            <li>
+									<p><span>06-</span>Paper Presentation at TEAMC'18</p>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="70"
+										aria-valuemin="0" aria-valuemax="100" style="width:84%">
+										</div>
+									</div>
+								</li>
+                            <li>
+                                    <p><span>07-</span>Result of Paper Presentation</p>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                        aria-valuemin="0" aria-valuemax="100" style="width:98%">
+                                        </div>
+                                    </div>
+                                </li>
 						</ul>
 					</div>
 				</div>
@@ -412,14 +445,14 @@ Start Call To Action
 <!-- Start Portfolio Section
 		=========================================== -->
 
-		<section class="portfolio section" id="portfolio">
+		<section class="portfolio section" id="phases123">
 			<div class="container">
 				<div class="row " >
 					<div class="col-lg-12">
 
 						<!-- section title -->
 						<div class="title text-center">
-							<h2>Our <span class="color">Works</span></h2>
+							<h2><span class="color">The Phases</span></h2>
 							<div class="border"></div>
 						</div>
 						<!-- /section title -->
@@ -428,125 +461,168 @@ Start Call To Action
 				<div class="row">
 						<div class="col-md-12">
 							<div class="portfolio-filter">
-								<button  type="button" data-filter="all">All</button>
-								<button type="button" data-filter=".photography">Photography</button>
-								<button type="button" data-filter=".design">Design</button>
-								<button type="button" data-filter=".development">Development</button>
+                                <p style="font-size:18px;">Hackeam is a unique hackathon that proceeds through phases and leads to an international conference. As teams of multi-disciplinary talents go through these phases,  they will experience the joys of visits to various places, interacting, reporting, designing, coding and paper writing.
+All teams wishing to participate in the hackathon must register themselves by the last date. Teams must strictly adhere to the rules as set by the organisers.
+<br> <br>The competition culminates in 3 phases
+</p>
+<br><br>
+                                <button  id='phase1'type="button" data-filter=".phase1">Phase 1</button>
+								<!-- <button type="button" data-filter=".phase1" class="mixitup-control-active">Phase 1</button> -->
+                                <a href='#phase'>
+								<button id='phase'type="button" data-filter=".phase2">Phase 2</button>
+								<button type="button" data-filter=".phase3">Phase 3</button>
+                                </a>
 							</div>
 						</div>
 					</div>
+
 					<div class="row portfolio-items-wrapper">
-						<div class="mix col-md-4 design">
+                        <div  id='ph1'>
+
+                        </div>
+                        <div class="mix col-md-12 phase1 text-center">
+                                <div class="portolio-block" style="margin:100px auto; margin-top:10px">
+                                            <h3 >PHASE 1</h3>
+                                        <h4>
+                                        In this phase, the registered teams need to visit a Place of Interest (POI) which may be a rural or semi-urban area for the  Rural  Trek, a healthcare center for the Health Trek , a School or institution for Education Trek. Participants will document their visit using text, interviews, and photographs. The POI to be explored may or may not  be one of the pre-designated areas listed by the organizers or chosen by the participants themselves.
+                                    </h4>
+                                </div>
+                        </div>
+                        <div class="mix col-md-4 phase1">
 							<div class="portfolio-block">
-								<img class="img-responsive" src="images/portfolio/portfolio-1.jpg" alt="">
+								<img class="img-responsive" src="images/portfolio/photograph.jpeg" alt="">
 								<div class="caption">
 
 									<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
-										<i class="tf-ion-android-search"></i>
+										<i class="tf-ion-camera"></i>
 									</a>
-									<h4><a href="">Tag Design</a></h4>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
+									<h4><a href="">Photograph</a></h4>
+									<p>include geotagged photos to make your journal authentic</p>
 								</div>
 							</div>
 						</div>
-						<div class="mix col-md-4 design">
+						<div class="mix col-md-4 phase1">
 							<div class="portfolio-block">
-									<img class="img-responsive" src="images/portfolio/portfolio-2.jpg" alt="">
+									<img class="img-responsive" src="images/portfolio/interview.jpeg" alt="">
 									<div class="caption">
 										<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-2.jpg" data-lightbox="image-1">
-											<i class="tf-ion-android-search"></i>
+											<i class="fa fa-user"></i>
 										</a>
-										<h4><a href="">Sound system</a></h4>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
+										<h4><a href="">Interview</a></h4>
+										<p>Interview people to get to the root of their problems</p>
 									</div>
 								</div>
 						</div>
-						<div class="mix col-md-4 design development">
+						<div class="mix col-md-4 phase1">
 							<div class="portfolio-block">
-									<img class="img-responsive" src="images/portfolio/portfolio-3.jpg" alt="">
+									<img class="img-responsive" src="images/portfolio/analyse.jpeg" alt="">
 									<div class="caption">
 										<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-3.jpg" data-lightbox="image-1">
-											<i class="tf-ion-android-search"></i>
+											<i class="fa fa-line-chart"></i>
 										</a>
-										<h4><a href="">Clock Product</a></h4>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
+										<h4><a href="">Analyse</a></h4>
+										<p>Analyse the problems that people in the Treks are facing <br> #getToTheCore</p>
 									</div>
 								</div>
-						</div>
-						<div class="mix col-md-4 photography development">
-							<div class="portfolio-block">
-									<img class="img-responsive" src="images/portfolio/portfolio-4.jpg" alt="">
-									<div class="caption">
-										<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-4.jpg" data-lightbox="image-1">
-											<i class="tf-ion-android-search"></i>
-										</a>
-										<h4><a href="">Bottol Label</a></h4>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-									</div>
-								</div>
-						</div>
-						<div class="mix col-md-4 design">
-							<div class="portfolio-block">
-									<img class="img-responsive" src="images/portfolio/portfolio-5.jpg" alt="">
-									<div class="caption">
-										<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-5.jpg" data-lightbox="image-1">
-											<i class="tf-ion-android-search"></i>
-										</a>
-										<h4><a href="">Shopping Bag</a></h4>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-									</div>
-								</div>
-						</div>
-						<div class="mix col-md-4 photography" >
-							<div class="portfolio-block">
-									<img class="img-responsive" src="images/portfolio/portfolio-6.jpg" alt="">
-									<div class="caption">
-										<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-6.jpg" data-lightbox="image-1">
-											<i class="tf-ion-android-search"></i>
-										</a>
-										<h4><a href="">Tag Design</a></h4>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-									</div>
-								</div>
-						</div>
-						<div class="mix col-md-4 design">
-							<div class="portfolio-block">
-									<img class="img-responsive" src="images/portfolio/portfolio-7.jpg" alt="">
-									<div class="caption">
-										<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-7.jpg" data-lightbox="image-1">
-											<i class="tf-ion-android-search"></i>
-										</a>
-										<h4><a href="">Business Card</a></h4>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-									</div>
-								</div>
-						</div>
-						<div class="mix col-md-4 design">
-							<div class="portfolio-block">
-									<img class="img-responsive" src="images/portfolio/portfolio-8.jpg" alt="">
-									<div class="caption">
-										<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-8.jpg" data-lightbox="image-1">
-											<i class="tf-ion-android-search"></i>
-										</a>
-										<h4><a href="">Stationary Design</a></h4>
-										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-									</div>
-								</div>
-						</div>
-						<div class="mix col-md-4  photography development">
-							<div class="portfolio-block">
-								<img class="img-responsive" src="images/portfolio/portfolio-1.jpg" alt="">
-								<div class="caption">
-									<a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
-										<i class="tf-ion-android-search"></i>
-									</a>
-									<h4><a href="">Tag Design</a></h4>
-									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!</p>
-								</div>
-							</div>
 						</div>
 
-					</div>
+<!-- phase 2 -->
+                        <div class="mix col-md-12 phase2 text-center">
+                                <div class="portolio-block" style="margin:100px auto; margin-top:10px">
+                                            <h3 >PHASE 2</h3>
+                                        <h4>
+                                            Teams will now begin the second part of their paper (Part B) that describes the system design of their proposed solution. All teams will be invited to be a part of the hackathon, HACKEAM 2018 during 30-31 Jan 2018. The implementation of their design will be done during the hackathon.
+                                    </h4>
+                                </div>
+                        </div>
+                        <div class="mix col-md-4 phase2">
+                            <div class="portfolio-block">
+                                <img class="img-responsive" src="images/portfolio/design.jpeg" alt="">
+                                <div class="caption">
+
+                                    <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                                        <i class="fa fa-pencil"></i>
+                                    </a>
+                                    <h4><a href="">Design</a></h4>
+                                    <p>Design a software or hardware-software solution to the problem in your journal</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mix col-md-4 phase2">
+                            <div class="portfolio-block">
+                                    <img class="img-responsive" src="images/portfolio/develop.jpg" alt="">
+                                    <div class="caption">
+                                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-2.jpg" data-lightbox="image-1">
+                                            <i class="tf-ion-laptop"></i>
+                                        </a>
+                                        <h4><a href="">Develop</a></h4>
+                                        <p>Develop on the design in the time between submission and onsite hackathon</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="mix col-md-4 phase2">
+                            <div class="portfolio-block">
+                                    <img class="img-responsive" src="images/portfolio/code.jpeg" alt="">
+                                    <div class="caption">
+                                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-3.jpg" data-lightbox="image-1">
+                                            <i class="tf-ion-code"></i>
+                                        </a>
+                                        <h4><a href="">Code</a></h4>
+                                        <p>Finally code your solution to get to the top <br>#EatSleepCodeRepeat </p>
+                                    </div>
+                                </div>
+                        </div>
+<!-- phase 2 -->
+                        <div class="mix col-md-12 phase3 text-center">
+                                <div class="portolio-block" style="margin:100px auto; margin-top:10px">
+                                            <h3 >PHASE 3</h3>
+                                        <h4>
+                                            Teams will get an excellent opportunity to showcase their work in the prestigious International Conference  TEAMC 2018 during March 26-28, 2018 (<a href="https://www.teamc18.com">www.teamc18.com</a>) at NSIT, in front of an international audience of researchers, industry leaders and government officials. Efforts will be made to carry forward potentially promising submissions so that they can be fully developed into working prototypes and products with the assistance of incubation centers.
+<br><br>
+Teams need to complete Part B their paper by adding experimental results and conclusion and submit the final paper comprising both Part A and Part B, by 10 Feb, 2018. The total length of the paper should not exceed 14 pages. At least one member of each team will have to  register for TEAMC 2018 if they wish to present their paper.
+<br><br>
+The paper submissions will be reviewed and selected papers will be invited to present their papers. They will be published in an indexed Journal with ISBN. The best paper will be given the <span class='color'>Best Paper Award</span> in Hackathon category.
+                                    </h4>
+                                </div>
+                        </div>
+                        <div class="mix col-md-4 phase3">
+                            <div class="portfolio-block">
+                                <img class="img-responsive" src="images/portfolio/experiment.jpg" alt="">
+                                <div class="caption">
+
+                                    <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
+                                        <i class="fa fa-flask"></i>
+                                    </a>
+                                    <h4><a href="">Experiment</a></h4>
+                                    <p>Experiment on your solution , find bugs ,beta test it.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mix col-md-4 phase3">
+                            <div class="portfolio-block">
+                                    <img class="img-responsive" src="images/portfolio/conclude.jpeg" alt="">
+                                    <div class="caption">
+                                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-2.jpg" data-lightbox="image-1">
+                                            <i class="fa fa-check"></i>
+                                        </a>
+                                        <h4><a href="">Conclude</a></h4>
+                                        <p>Add a conclusion in you paper on the feasibilty, usefullness, design of product</p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="mix col-md-4 phase3">
+                            <div class="portfolio-block">
+                                    <img class="img-responsive" src="images/portfolio/present.jpeg" alt="">
+                                    <div class="caption">
+                                        <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-3.jpg" data-lightbox="image-1">
+                                            <i class="fa fa-microphone"></i>
+                                        </a>
+                                        <h4><a href="">Present</a></h4>
+                                        <p>Get a Chance to present it at TEAMC 2018</p>
+                                    </div>
+                                </div>
+                            </div>
+    				</div>
 
 
 
@@ -557,11 +633,10 @@ Start Call To Action
 Start Counter Section
 ==================================== -->
 
-<section id="counter" class="parallax-section bg-1 section overly">
+<!-- <section id="counter" class="parallax-section bg-1 section overly">
 	<div class="container">
 		<div class="row">
 
-			<!-- first count item -->
 			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
 				<div class="counters-item">
 					<i class="tf-ion-android-happy"></i>
@@ -569,48 +644,39 @@ Start Counter Section
 					<h3>Happy Clients</h3>
 				</div>
 			</div>
-			<!-- end first count item -->
 
-			<!-- second count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="200ms">
-				<div class="counters-item">
-					<i class="tf-ion-archive"></i>
-					<span data-speed="3000" data-to="565">565</span>
-					<h3>Projects completed</h3>
-				</div>
-			</div>
-			<!-- end second count item -->
 
-			<!-- third count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="400ms">
-				<div class="counters-item">
-					<i class="tf-ion-thumbsup"></i>
-					<span data-speed="3000" data-to="95">95</span>
-					<h3>Positive feedback</h3>
+		</div>
+    </div>
+</section>  -->
+<!-- Start Pricing section
+		=========================================== -->
 
-				</div>
-			</div>
-			<!-- end third count item -->
+		<section id="sponsors" class="pricing section">
+			<div class="container">
+				<div class="row <text-center></text-center>">
 
-			<!-- fourth count item -->
-			<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="600ms">
-				<div class="counters-item kill-margin-bottom">
-					<i class="tf-ion-coffee"></i>
-					<span data-speed="3000" data-to="2500">2500</span>
-					<h3>Cups of Coffee</h3>
-				</div>
-			</div>
-			<!-- end fourth count item -->
+					<!-- section title -->
+				    <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
+			        	<h2>Our<span class="color"> Sponsors</span></h2>
+				        <div class="border"></div>
+				    </div>
+                    <img src="./images/comingsoon.png" alt="" class="img-responsive" style="margin:0 auto">
+				    <!-- /section title -->
+                        <!-- <h1>COMING SOON</h1> -->
+					<!-- single pricing table -->
+					<!-- end single pricing table -->
 
-		</div> 		<!-- end row -->
-	</div>   	<!-- end container -->
-</section>   <!-- end section -->
+
+				</div>       <!-- End row -->
+			</div>   	<!-- End container -->
+		</section>   <!-- End section -->
 
 <!--
 Start Our Team
 =========================================== -->
 
-<section id="our-team" class="section">
+<section id="team" class="section">
 	<div class="container">
 		<div class="row">
 
@@ -621,21 +687,54 @@ Start Our Team
 			</div>
 			<!-- /section title -->
 
+        			<!-- team member -->
+        			<div class="col-md-4 col-md-offset-4  col-sm-6 col-xs-12  wow fadeInDown text-center" data-wow-duration="500ms" style="margin-right:33.33333%">
+                       <div class="team-member">
+        					<div class="member-photo">
+        						<!-- member photo -->
+        						<img class="img-responsive" src="images/team/Shampa Ma_am.png" alt="Meghna" style="margin:0 auto;width:120%">
+        						<!-- /member photo -->
+
+        						<!-- member social profile -->
+        						<div class="mask">
+        							<ul class="list-inline">
+        								<li><a href="https://www.facebook.com/shampa.chakraverty"><i class="tf-ion-social-facebook"></i></a></li>
+        								<!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li> -->
+        								<li><a href="https://www.linkedin.com/in/shampa-chakraverty-b6ab8910"><i class="tf-ion-social-linkedin"></i></a></li>
+        								<!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
+        							</ul>
+        						</div>
+        						<!-- /member social profile -->
+        					</div>
+
+        					<!-- member name & designation -->
+        					<div class="member-meta">
+        						<h4>Dr. Shampa Chakravert</h4>
+        						<span>General Chair</span>
+        						<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p> -->
+        					</div>
+        					<!-- /member name & designation -->
+        					<!-- /about member -->
+
+                       </div>
+                    </div>
+        			<!-- end team member -->
+
 			<!-- team member -->
-			<div class="col-md-3 col-sm-6 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
+			<div class="col-md-3 col-md-offest-4 col-sm-6 col-xs-12  wow fadeInDown" data-wow-duration="500ms">
                <div class="team-member">
 					<div class="member-photo">
 						<!-- member photo -->
-						<img class="img-responsive" src="images/team/team-1.jpg" alt="Meghna">
+						<img class="img-responsive" src="images/team/Aishanya.png" alt="Meghna">
 						<!-- /member photo -->
 
 						<!-- member social profile -->
 						<div class="mask">
 							<ul class="list-inline">
-								<li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
+								<li><a href="https://www.facebook.com/aishanya.singh.75"><i class="tf-ion-social-facebook"></i></a></li>
+								<!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li> -->
+								<li><a href="https://www.linkedin.com/in/aishanya-singh-2b7632136"><i class="tf-ion-social-linkedin"></i></a></li>
+								<!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
 							</ul>
 						</div>
 						<!-- /member social profile -->
@@ -643,9 +742,9 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4>Abul Mal Muhit</h4>
-						<span>CEO/Founder</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
+						<h4>Aishanya Singh</h4>
+						<span>Executive Member</span>
+						<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p> -->
 					</div>
 					<!-- /member name & designation -->
 					<!-- /about member -->
@@ -659,16 +758,16 @@ Start Our Team
                <div class="team-member">
 					<div class="member-photo">
 						<!-- member photo -->
-						<img class="img-responsive" src="images/team/team-2.jpg" alt="Meghna">
+						<img class="img-responsive" src="images/team/Pratyush.png" alt="Meghna">
 						<!-- /member photo -->
 
 						<!-- member social profile -->
 						<div class="mask">
 							<ul class="list-inline">
-								<li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
+								<li><a href="https://www.facebook.com/pratyush.goel.71"><i class="tf-ion-social-facebook"></i></a></li>
+								<!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li> -->
+								<li><a href="https://www.linkedin.com/in/pratyush-goel-248633136"><i class="tf-ion-social-linkedin"></i></a></li>
+								<!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
 							</ul>
 						</div>
 						<!-- /member social profile -->
@@ -676,9 +775,9 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4>Frank Miller</h4>
-						<span>Manager</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
+						<h4>Pratyush Goel</h4>
+						<span>Executive Member</span>
+						<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p> -->
 					</div>
 					<!-- /member name & designation -->
 					<!-- /about member -->
@@ -691,16 +790,16 @@ Start Our Team
                <div class="team-member">
 					<div class="member-photo">
 						<!-- member photo -->
-						<img class="img-responsive" src="images/team/team-3.jpg" alt="Meghna">
+						<img class="img-responsive" src="images/team/Shubham.png" alt="Meghna">
 						<!-- /member photo -->
 
 						<!-- member social profile -->
 						<div class="mask">
 							<ul class="list-inline">
-								<li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
+								<li><a href="https://www.facebook.com/profile.php?id=100001390397235"><i class="tf-ion-social-facebook"></i></a></li>
+								<!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li> -->
+								<li><a href="https://www.linkedin.com/in/shubham-singh-a3755111b"><i class="tf-ion-social-linkedin"></i></a></li>
+								<!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
 							</ul>
 						</div>
 						<!-- /member social profile -->
@@ -708,9 +807,9 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4>Michael Jonson</h4>
-						<span>Web Developer</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
+						<h4>Shubham Singh</h4>
+						<span>Executive Member</span>
+						<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p> -->
 					</div>
 					<!-- /member name & designation -->
 					<!-- /about member -->
@@ -723,16 +822,16 @@ Start Our Team
                <div class="team-member">
 					<div class="member-photo">
 						<!-- member photo -->
-						<img class="img-responsive" src="images/team/team-4.jpg" alt="Meghna">
+						<img class="img-responsive" src="images/team/Raghav.png" alt="Meghna">
 						<!-- /member photo -->
 
 						<!-- member social profile -->
 						<div class="mask">
 							<ul class="list-inline">
-								<li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
+								<li><a href="https://www.facebook.com/raghav.kumar.12914216"><i class="tf-ion-social-facebook"></i></a></li>
+								<!-- <li><a href="#"><i class="tf-ion-social-twitter"></i></a></li> -->
+								<li><a href="https://www.linkedin.com/in/raghav-kumar-79b002135"><i class="tf-ion-social-linkedin"></i></a></li>
+								<!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
 							</ul>
 						</div>
 						<!-- /member social profile -->
@@ -740,9 +839,9 @@ Start Our Team
 
 					<!-- member name & designation -->
 					<div class="member-meta">
-						<h4>Mo. Kha. Alamgir</h4>
-						<span>SEO Specialist</span>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p>
+						<h4>Raghav Kumar</h4>
+						<span>Executive Member</span>
+						<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.</p> -->
 					</div>
 					<!-- /member name & designation -->
 					<!-- /about member -->
@@ -755,165 +854,63 @@ Start Our Team
 </section>   <!-- End section -->
 
 
-<!-- Start Pricing section
-		=========================================== -->
-
-		<section id="pricing" class="pricing section">
-			<div class="container">
-				<div class="row">
-
-					<!-- section title -->
-				    <div class="title text-center wow fadeInDown" data-wow-duration="500ms">
-			        	<h2>Our Greatest<span class="color"> Plans</span></h2>
-				        <div class="border"></div>
-				    </div>
-				    <!-- /section title -->
-
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="200ms">
-						<div class="price-item">
-
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Free</h3>
-								<p><strong class="value">$99</strong>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-
-						</div>
-					</div>
-					<!-- end single pricing table -->
-
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-						<div class="price-item">
-
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Silver</h3>
-								<p><strong class="value">$149</strong/>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-
-						</div>
-					</div>
-					<!-- end single pricing table -->
-
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="600ms">
-						<div class="price-item">
-
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Gold</h3>
-								<p><strong class="value">$199</strong/>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-
-						</div>
-					</div>
-					<!-- end single pricing table -->
-
-					<!-- single pricing table -->
-					<div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="750ms">
-						<div class="price-item">
-
-							<!-- plan name & value -->
-							<div class="price-title">
-								<h3>Platinum</h3>
-								<p><strong class="value">$299</strong/>/ month</p>
-							</div>
-							<!-- /plan name & value -->
-
-							<!-- plan description -->
-							<ul>
-								<li>1GB Disk Space</li>
-								<li>10 Email Account</li>
-								<li>Script Installer</li>
-								<li>1 GB Storage</li>
-								<li>10 GB Bandwidth</li>
-								<li>24/7 Tech Support</li>
-							</ul>
-							<!-- /plan description -->
-
-							<!-- signup button -->
-							<a class="btn btn-transparent" href="#">Signup</a>
-							<!-- /signup button -->
-
-						</div>
-					</div>
-					<!-- end single pricing table -->
-
-
-				</div>       <!-- End row -->
-			</div>   	<!-- End container -->
-		</section>   <!-- End section -->
-
 <!-- Start Testimonial
 		=========================================== -->
 
-<section id="testimonial" class="testimonial overly section bg-2">
+<section id="rules" class="testimonial overly section bg-2" >
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-12">
+			<div class="col-lg-12 " style="margin-top:-5%">
 				<!-- testimonial wrapper -->
+                <div class="text-center">
+
+                    <h1>Rules and Regulations</h2>
+                </div>
+
+
 				<div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
 
 					<!-- testimonial single -->
-					<div class="item text-center">
+                <ul>
 
+                <li>
+                        <div class="item ">
+                            <h3>1. Teams must register before last date <span class="color">30th Dec, 2017 </span>. The date will not be extended under any circumstances. </h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>2. A team must comprise of at least 2 and a maximum of 4  members. </h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>3. Teams must strictly adhere to the registration rules set by the organisers violation of which leads to cancellation of registration.     </h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>4. A team can enroll for any one trek.
+The place of interest of treks may chosen by participants themselves but should belong to any of the mentioned treks.</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>5. Documentation guidelines must strictly followed. For more details, visit http://teamc18.com.</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>6. Plagiarism or submission of copyrighted content  or content containing viruses or disabling devices or harmful codes is strictly prohibited.
+                            </h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>7. Teams will begin second part of paper,  part B ( for more details, visit http://teamc18.com) , and will be invited to be a part of HACKEAM 2018 during 30-31 Jan. </h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>8. Last date for completion and submission of paper(both part A and part B)  is 28th Feb, 2018. Late entries will not be entertained. </h3>
+                        </div>
+
+                        <div class="item  ">
+                            <h3>9. Atleast one member of each team selected for paper presentation will have to register for TeamC 2018  to be eligible to present their paper.  </h3>
+                        </div>
 						<!-- client photo -->
-						<div class="client-thumb">
+						<!-- <div class="client-thumb">
 							<img src="images/team/client-1.jpg" class="img-responsive" alt="Meghna">
 						</div>
-						<!-- /client photo -->
+						/client photo
 
-						<!-- client info -->
+						client info
 						<div class="client-info">
 							<div class="client-meta">
 								<h3>Jonathon Andrew</h3>
@@ -922,56 +919,12 @@ Start Our Team
 							<div class="client-comment">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium minima ex, quia error, deserunt voluptatibus repellendus? Incidunt eligendi aliquam repellat molestias, vel sed optio rem odit quis ratione non consequuntur!</p>
 							</div>
-						</div>
+						</div> -->
 						<!-- /client info -->
-					</div>
+                </li>
+            </ul>
 					<!-- /testimonial single -->
 
-					<!-- testimonial single -->
-					<div class="item text-center">
-
-						<!-- client photo -->
-						<div class="client-thumb">
-							<img src="images/team/client-2.jpg" class="img-responsive" alt="Meghna">
-						</div>
-						<!-- /client photo -->
-
-						<!-- client info -->
-						<div class="client-info">
-							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
-								<span>Dec 26, 2018</span>
-							</div>
-							<div class="client-comment">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel reiciendis qui in laborum obcaecati expedita blanditiis animi placeat, nemo exercitationem porro. Consequuntur qui commodi minima molestiae, dolores reprehenderit nemo inventore.</p>
-							</div>
-						</div>
-						<!-- /client info -->
-					</div>
-					<!-- /testimonial single -->
-
-					<!-- testimonial single -->
-					<div class="item text-center">
-
-						<!-- client photo -->
-						<div class="client-thumb">
-							<img src="images/team/client-1.jpg" class="img-responsive" alt="Meghna">
-						</div>
-						<!-- /client photo -->
-
-						<!-- client info -->
-						<div class="client-info">
-							<div class="client-meta">
-								<h3>Jonathon Andrew</h3>
-								<span>Dec 26, 2018</span>
-							</div>
-							<div class="client-comment">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dolorem non delectus neque, voluptatem accusamus atque expedita doloribus minima iusto nemo, numquam eos quia maiores harum! Quaerat illum beatae necessitatibus!</p>
-							</div>
-						</div>
-						<!-- /client info -->
-					</div>
-					<!-- /testimonial single -->
 
 				</div>		<!-- end testimonial wrapper -->
 			</div> 		<!-- end col lg 12 -->
@@ -984,85 +937,96 @@ Start Our Team
 Start Blog Section
 =========================================== -->
 
-<section id="blog" class="section">
-	<div class="container">
-		<div class="row">
+<section id="FAQS" class="page-section light overly section">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-8 pull-left">
+                          <h1 class="section-title">
+                              <span  class="icon-inner wow animated fadeIn"><span class="fa-stack"><i class="fa rhex fa-stack-2x" ></i><i class="fa fa-question fa-stack-1x"></i></span></span>
+                              <span  class="title-inner wow animated fadeInRight animated title"><h2 style="display: inline;">FA<span class="color">Q</span></h2>s</span>
+                          </h1>
+                      </div>
+                      <div class="col-md-4 text-right-md pull-right">
+                      </div>
+                  </div>
+                  <div class="row faq margin-top wow animated fadeInUp" >
+                      <div class="col-sm-6 col-md-6 pull-left">
+                          <ul id="tabs-faq"  class="nav">
+                              <li class="active"><a href="#tab-faq1" data-toggle="tab"><i class="fa fa-angle-right"></i> <span class="faq-inner">How big can my team be?</span></a></li>
+                              <li><a href="#tab-faq2" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">Can I participate?</span></a></li>
+                              <!-- <li><a href="#tab-faq3" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">Who can participate?</span></a></li> -->
+                              <li><a href="#tab-faq4" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">Will TeamC reimburse me for my expenses?</span></a></li>
+                              <li><a href="#tab-faq5" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">Does the Hackathon offer accommodation?</span></a></li>
+                              <li><a href="#tab-faq6" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">Is there a charge to participate?</span></a></li>
+                              <li><a href="#tab-faq7" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">What is a trek?</span></a></li>
+                              <!-- <li><a href="#tab-faq5" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">Will be there be food and sleeping facilities on the day of the Hackathon?</span></a></li> -->
+                              <!-- <li><a href="#tab-faq8" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">What should I bring to the onsite hackathon?</span></a></li> -->
+                              <li><a href="#tab-faq9" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">Who owns my project and IP Rights?</span></a></li>
+                              <li><a href="#tab-faq10" data-toggle="tab"><i class="fa fa-plus"></i> <span class="faq-inner">I have another question?</span></a></li>
+                          </ul>
+                      </div>
+                      <div class="col-sm-6 col-md-6 pull-right">
+                          <div class="tab-content">
+                              <div id="tab-faq1" class="tab-pane fade in active">
+                                  <div>
+                                      <p>Every team must consist of a minimum of <strong>
+                                          two
+                                      </strong>
+                                       members and a maximum of <strong>four</strong> members</p>
+                                  </div>
+                              </div>
+                              <div id="tab-faq2" class="tab-pane fade">
+                                  <div>
+                                     <p>
+                                         All students studying  in graduation or post graduation institutions are eligible to participate in the Hackathon. The only eligibility criteria is that the participant must love solving problems.
+                                     </p> </div>
+                              </div>
+                              <div id="tab-faq4" class="tab-pane fade">
+                                  <div>
 
-			<!-- section title -->
-			<div class="title text-center wow fadeInDown">
-				<h2> Latest <span class="color">Posts</span></h2>
-				<div class="border"></div>
-			</div>
-			<!-- /section title -->
+                                      <p>
+                                          No, TeamC offers no kind of reimbursement for any expenses occurring due to travel, accomodation or any other kind.
+                                    </p>
+                                  </div>
+                              </div>
+                              <div id="tab-faq5" class="tab-pane fade">
+                                  <div>
+                                    <p>
+                                        No, we do not offer any services for accommodation. We can certainly recommend some 	hotels near the campus for easier logistics.</p>
+                                  </div>
+                              </div>
+                              <div id="tab-faq6" class="tab-pane fade">
+                                  <div>
+                                    <p>
+                                        No. You do not have to pay anything to anyone to register yourself for Hackeam.
+ </p>
+                                  </div>
+                              </div>
+                              <div id="tab-faq7" class="tab-pane fade">
+                                  <div>
+                                    <p>
+                                        The participant needs to visit a government office, school or a  hospital or ony of the mentioned places to analyse and 		journalise a problem. This visit is termed as treks.
+ </p>
+                                  </div>
+                              </div>
+                              <div id="tab-faq9" class="tab-pane fade">
+                                  <div>
+                                    <p>
+                                        The team that develops the project is the owner of the project and IP. We do encourage sharing of code with others in the community or making code open source but it is not required to participate in the event.
+                                  </div>
+                              </div>
+                              <div id="tab-faq10" class="tab-pane fade">
+                                  <div>
+                                    <p>
+                                    	Have a question that isn’t mentioned here? Email us at <a href='mailto:teamc.hackeam2018@gmail.com'>teamc.hackeam2018@gmail.com</a>. </p>
+                                  </div>
+                              </div>
 
-			<div class="clearfix">
-
-				<!-- single blog post -->
-				<article class="col-md-4 col-sm-6 col-xs-12 clearfix wow fadeInUp" data-wow-duration="500ms">
-					<div class="post-block">
-						<div class="media-wrapper">
-							<img src="images/blog/blog-post-1.jpg" alt="amazing caves coverimage" class="img-responsive">
-						</div>
-
-						<div class="content">
-							<h3><a href="">Simple Image Post</a></h3>
-							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-							<a class="btn btn-transparent" href="single-post.html">Read more</a>
-						</div>
-					</div>
-				</article>
-				<!-- /single blog post -->
-
-				<!-- single blog post -->
-				<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="200ms">
-					<div class="post-block">
-						<div id="gallery-post" class="media-wrapper">
-							<div class="item">
-								<img src="images/blog/blog-post-2.jpg" alt="blog post" class="img-responsive">
-							</div>
-							<div class="item">
-								<img src="images/blog/blog-post-3.jpg" alt="blog post" class="img-responsive">
-							</div>
-							<div class="item">
-								<img src="images/blog/blog-post-1.jpg" alt="blog post | Meghna" class="img-responsive">
-							</div>
-						</div>
-
-						<div class="content">
-							<h3><a href="">Simple Slider Post</a></h3>
-							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-							<a class="btn btn-transparent" href="single-post.html">Read more</a>
-						</div>
-					</div>
-				</article>
-				<!-- end single blog post -->
-
-				<!-- single blog post -->
-				<article class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="400ms">
-					<div class="post-block">
-						<div class="media-wrapper">
-							<img src="images/blog/blog-post-3.jpg" alt="amazing caves coverimage" class="img-responsive">
-						</div>
-
-						<div class="content">
-							<h3><a href="">Simple Image Post</a></h3>
-							<p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non skateboard dolor brunch.</p>
-							<a class="btn btn-transparent" href="single-post.html">Read more</a>
-						</div>
-					</div>
-				</article>
-				<!-- end single blog post -->
-			</div>
-
-			<div class="all-post text-center">
-				<a class="btn btn-main" href="blog.html">View All Post</a>
-			</div>
-
-		</div> <!-- end row -->
-	</div> <!-- end container -->
-</section> <!-- end section -->
-
-
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
 <!-- Srart Contact Us
 =========================================== -->
 <section id="contact-us" class="contact-us section-bg">
@@ -1079,26 +1043,26 @@ Start Blog Section
 			<!-- Contact Details -->
 			<div class="contact-info col-md-6 wow fadeInUp" data-wow-duration="500ms">
 				<h3>Contact Details</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, vero, provident, eum eligendi blanditiis ex explicabo vitae nostrum facilis asperiores dolorem illo officiis ratione vel fugiat dicta laboriosam labore adipisci.</p>
+				<p>in case of any queries you can contact us via this form or via the channels given below:</p>
 				<div class="contact-details">
 					<div class="con-info clearfix">
 						<i class="tf-map-pin"></i>
-						<span>Khaja Road, Bayzid, Chittagong, Bangladesh</span>
+						<span>Netaji Subhas Institue of Technology,Dwarka Sec-3,DELHI</span>
 					</div>
 
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-telephone-outline"></i>
-						<span>Phone: +880-31-000-000</span>
+						<span>&nbsp;Shubham Singh:+91 97117 78196</span>
 					</div>
+                    <div class="con-info clearfix">
+                        <i class="tf-ion-ios-telephone-outline"></i>
+                        <span>&nbsp;Aishanya Singh:+91 97i61 07555</span>
+                    </div>
 
-					<div class="con-info clearfix">
-						<i class="tf-ion-iphone"></i>
-						<span>Fax: +880-31-000-000</span>
-					</div>
 
 					<div class="con-info clearfix">
 						<i class="tf-ion-ios-email-outline"></i>
-						<span>Email: hello@meghna.com</span>
+						<span>Email:teamc.hackeam2018@gmail.com</span>
 					</div>
 				</div>
 			</div>
@@ -1106,7 +1070,7 @@ Start Blog Section
 
 			<!-- Contact Form -->
 			<div class="contact-form col-md-6 wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-				<form id="contact-form" method="post" action="sendmail.php" role="form">
+				<form id="contact-form" method="post" action="https://formspree.io/pratyush.sherlock@gmail.com" role="form">
 
 					<div class="form-group">
 						<input type="text" placeholder="Your Name" class="form-control" name="name" id="name">
@@ -1166,13 +1130,14 @@ Start Blog Section
 						<!-- Footer Social Links -->
 						<div class="social-icon">
 							<ul class="list-inline">
-								<li><a href="#"><i class="tf-ion-social-facebook"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-twitter"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-google-outline"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-youtube"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-linkedin"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li>
-								<li><a href="#"><i class="tf-ion-social-pinterest-outline"></i></a></li>
+								<li><a href="https://www.facebook.com/events/290600888128563/?ti=cl"><i class="tf-ion-social-facebook"></i></a></li>
+								<!-- <li><a href=""><i class="tf-ion-social-twitter"></i></a></li> -->
+								<!-- <li><a href="#"><i class="tf-ion-social-google-outline"></i></a></li> -->
+								<li><a href="https://www.flickr.com/people/teamc2018/"><i class="fa fa-flickr"></i></a></li>
+								<li><a href="https://www.linkedin.com/company/13598575/"><i class="tf-ion-social-linkedin"></i></a></li>
+                                <li><a href="https://www.instagram.com/hackeam_2018/"><i class="tf-ion-social-instagram"></i></a></li>
+								<!-- <li><a href="#"><i class="tf-ion-social-dribbble-outline"></i></a></li> -->
+								<!-- <li><a href="#"><i class="tf-ion-social-pinterest-outline"></i></a></li> -->
 							</ul>
 						</div>
 						<!--/. End Footer Social Links -->
@@ -1180,20 +1145,22 @@ Start Blog Section
 						<!-- copyright -->
 						<div class="copyright text-center">
 							<a href="index.html">
-								<!-- <img src="images/logo-meghna.png" alt="Meghna" />  -->
-								<svg width="40px" height="40px" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+								<img src="images/HACKEAM.png" alt="HACKEAM" style="width:100px" />
+								<!-- <svg width="40px" height="40px" viewBox="0 0 45 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 		                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
 		                            <g id="Group" transform="translate(2.000000, 2.000000)" stroke="#57CBCC" stroke-width="3">
 		                                <ellipse id="Oval" cx="20.5" cy="20" rx="20.5" ry="20"></ellipse>
 		                                <path d="M6,7 L33.5,34.5" id="Line-2" stroke-linecap="square"></path>
 		                                <path d="M21,20 L34,7" id="Line-3" stroke-linecap="square"></path>
 		                            </g>
-		                        </g>
+		                        </g> -->
 		                    </svg>
 							</a>
 							<br />
 
-							<p>Design And Developed by <a href="http://www.themefisher.com"> Themefisher Team</a>. Copyright &copy; <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</p>
+							<p>Design And Developed by <a href="https://www.teamc18.com">Hackeam Team</a>. Copyright &copy; <script>document.write(new Date().getFullYear())</script>. All Rights Reserved.</p>
 						</div>
 						<!-- /copyright -->
 
