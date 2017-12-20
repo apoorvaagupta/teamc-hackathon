@@ -2371,9 +2371,7 @@ blockquote {
 .price-title h3{
     text-transform: none;
 }
-#Guides .service-block{
-    height:500px;
-}
+
 /* /// Dipesh edits ends*/
 /*shubham edits*/
     ul {
@@ -2581,6 +2579,8 @@ blockquote {
     		width: 300px;
     	}
     }
-
+    #guides .service-block{
+        height:85vh !important;
+    }
 
 /*end*/
