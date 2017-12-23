@@ -651,15 +651,15 @@ a:focus, a:hover {
   background: #fff;
   color: #57cbcc;
   display: inline-block;
-  height: 100px;
-  width: 100px;
-  border-radius: 50px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
 }
 
 .hero-area .block .video-button i {
   line-height: 60px;
   font-size: 20px;
-  margin-left: 3px;
+  /*margin-left: 5px;*/
 }
 .hero-area .NSITvideo-button{
     position: absolute;
@@ -667,7 +667,7 @@ a:focus, a:hover {
     right:15px;
 }
 .hero-area .NSITvideo-button img{
-    width:130px;
+    width:180px;
 }
 .hero-area .TEAMCvideo-button{
     position: absolute;
@@ -753,7 +753,7 @@ a:focus, a:hover {
 }
 /*changes made by pratyush*/
 .video-button>img{
-    width: 100px;
+    width: 150px;
     margin-top: 5% !important;
     /*border-radius:50%; */
 }
