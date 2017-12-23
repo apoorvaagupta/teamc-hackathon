@@ -90,7 +90,6 @@ handleTabsFAQ();
   		autoplaySpeed: 4000
 	});
 
-	$('#phase1').click();
 
 
 
