@@ -631,7 +631,7 @@ a:focus, a:hover {
 }
 
 .hero-area {
-  background-image: url("../images/mainbg.jpg");
+  background-image: url("../images/backgroundtrek/laptop.jpeg");
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -783,7 +783,7 @@ a:focus, a:hover {
     background-color:black;
 }
 .hero-area{
-    background-image: url(../images/mainbg.jpg);
+    background-image: url(../images/backgroundtrek/laptop.jpeg);
 
 }
 /*changes end*/
