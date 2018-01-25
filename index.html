@@ -37,7 +37,7 @@
         <link rel="stylesheet" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+<script src="js/modernizr.js"></script>
 
     </head>
 
@@ -85,11 +85,96 @@ Welcome Slider
 		<div class="video-button">
 			<img src='images/HACKEAM.png' />
 		</div>
+    <!-- Styles -->
+<style style="text/css">
+.example1 {
+ height: 50px;
+ overflow: hidden;
+ position: relative;
+}
+.example1 h3 {
+ font-size: 3em;
+ color: limegreen;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+}
+</style>
 		<h1>HACKEAM-18</h1>
         <p>Trek. Report. Hack. Adapt. Achieve</p>
+        <br/>
+        <marquee behavior="scroll" direction="right"><h3 style="color: #FFC107">Last Day to Submit Report of PHASE 1</h3></marquee>
+        <marquee behavior="alternate"><h3 style="color: #FF9800"> 27th January 2018</h3></marquee>
+
+<div class="row text-center">
+        <div id="clockdiv">
+        <div>
+          <span class="days"></span>
+          <div class="smalltext">Days</div>
+        </div>
+        <div>
+          <span class="hours"></span>
+          <div class="smalltext">Hours</div>
+        </div>
+        <div>
+          <span class="minutes"></span>
+          <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+          <span class="seconds"></span>
+          <div class="smalltext">Seconds</div>
+        </div>
+      </div>
+</div>
 		<!-- <p><span class="color">T</span>rek/. <span class="color">E</span>xplore. <span class="color">A</span>nalyse. <span class="color">M</span>odel. <span class="color">C</span>onquer</p> -->
 		<a data-scroll href="#about" class="btn btn-transparent">Explore Us</a>
-	</div>
+
+  </div>
+
+
+
+
+
+
+      </div> <!-- /twelve -->
+
+   <!-- /scroll-icon -->
+    </div>
+
+
+
 </section>
 
  <!--
@@ -201,7 +286,7 @@ TEAMC 2018 includes Agile Software Development, Data Management, Web Intelligenc
 							<!-- Express About Yourself -->
 							<div class="content text-center" style="color:black;min-height:40vh">
 								<!-- <h3 style="color:black">Our Objective</h3> -->
-								<p style="font-size:1.2em;">The main objective of this hackathon is to sensitize students and professionals about existing problems of the under privileged and lesser developed sections of our society and providing a platform whereby
+								<p style="font-size:1.2em;" align="justify">The main objective of this hackathon is to sensitize students and professionals about existing problems of the under privileged and lesser developed sections of our society and providing a platform whereby
                                      they can proactively develop and showcase technological
                                      solutions for these challenges. <br>
                                      The Hackathon will be held in phases after completion
@@ -1242,12 +1327,7 @@ Start Our Team
                   <a href="">
                     <img class="img-responsive" src="images/sketch-logo-dark-transparent@2x.png" alt=""></a>
                   </div>
-                  <div class="col-md-4 col-xs-12">
-                  <p>&nbsp;
-                  </p>
-                  <a href="http://www.ictacademy.in/pages/index.aspx">
-                    <img class="img-responsive" src="images/ictacademy_2016.png" alt=""></a>
-                </div>
+
               </div>
                               	<!-- End row -->
     </div>
@@ -1267,7 +1347,7 @@ Start Our Team
 				<!-- testimonial wrapper -->
                 <div class="text-center">
 
-                    <h1>Rules and Regulations</h2>
+                    <h1><span  class="color">Rules and Regulations</span></h2>
                 </div>
 
 
@@ -1307,6 +1387,66 @@ The place of interest of treks may be chosen by participants themselves but shou
                         <div class="item  ">
                             <h3>9. Atleast one member of each team selected for paper presentation will have to register for TeamC 2018  to be eligible to present their paper.  </h3>
                         </div>
+
+                </li>
+            </ul>
+					<!-- /testimonial single -->
+
+
+				</div>
+
+        <div class="text-center">
+
+            <h1><span  class="color">Instructions for Writing Report</span></h2>
+        </div>
+        <div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+
+					<!-- testimonial single -->
+                <ul>
+
+                <li>
+                        <div class="item ">
+                            <h3>  Phase 1 ends with you submitting a final report of your research work compiled after your team trek.
+      The format for the above mentioned follows :</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>The report should be 4-5 pages, single column, 11 font, single-spaced, with figs, tables, graphics, trek photographs.</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>  The sequence of content to be written in your report should be as listed below -</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>1. Title and authors</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>2. Abstract</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>3. Introduction and motivation
+                            </h3>
+                        </div>
+                        <div class="item  ">
+                          <h3>4. Background: Describe the context including the place visited, the socio-cultural and economic ecosystem of that place.</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>5. Experiences of the interaction</h3>
+                        </div>
+
+                        <div class="item  ">
+                            <h3>6. Questionnaire if any and it's analysis - for example, an analysis of psychometric questions measured on a Likert scale.</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>7. Problem identified</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>PAPER SUBMISSION FOR PHASE 1 :</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>  You will be required to mail the above-mentioned report in *PDF *format to submission.hackeam@gmail.com. The subject of the mail should be "HACKEAM- REPORT (PHASE 1)". The mail should include the team details (Team Name, Team captain, Trek Details(Name, Place, Date), Contact details).
+
+                              You will be updated with all other information as soon as the treks have ended and all teams have submitted their journals i.e. after 27th January 2018(deadline for submission of photo journals).</h3>
+                        </div>
+
 						<!-- client photo -->
 						<!-- <div class="client-thumb">
 							<img src="images/team/client-1.jpg" class="img-responsive" alt="Meghna">
@@ -1329,7 +1469,8 @@ The place of interest of treks may be chosen by participants themselves but shou
 					<!-- /testimonial single -->
 
 
-				</div>		<!-- end testimonial wrapper -->
+				</div>
+        		<!-- end testimonial wrapper -->
 			</div> 		<!-- end col lg 12 -->
 		</div>	    <!-- End row -->
 	</div>       <!-- End container -->
