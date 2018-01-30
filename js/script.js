@@ -47,7 +47,7 @@ jQuery(function ($) { "use strict";
 	  var timeinterval = setInterval(updateClock, 1000);
 	}
 
-	var deadline = new Date(Date.parse(new Date("January 30, 2018 23:59:59")));
+	var deadline = new Date(Date.parse(new Date("February 10, 2018 23:59:59")));
 	initializeClock('clockdiv', deadline);
 
 	/* ========================================================================= */
