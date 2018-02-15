@@ -7,7 +7,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="description" content="HACKEAM18">
 
-        <meta name="author" content="pratyush goel">
+        <meta name="author" content="pratyush goel Shubham singh">
 
         <title>Hackeam-18</title>
 
@@ -37,7 +37,7 @@
         <link rel="stylesheet" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+<script src="js/modernizr.js"></script>
 
     </head>
 
@@ -67,29 +67,135 @@
  <!--
 Welcome Slider
 ==================================== -->
+<style type="text/css">
+.box{
+    text-align: right;
+}
+.absolute-right{
+    display: inline-block;
+    position: absolute;
+}
+
+/*The magic:*/
+.absolute-right{
+-moz-transform: translateX(-100%);
+-ms-transform: translateX(-100%);
+-webkit-transform: translateX(-100%);
+-o-transform: translateX(-100%);
+transform: translateX(-100%);
+}
+</style>
 
 <section class="hero-area">
-    <div class="top-logo1">
-        <img src='images/nsit-white.jpg'>
+<div class="box">
+    <div class="video-button NSITvideo-button pull-right col-xs-4">
+        <img src='images/logos/TC LOGO.png' max-width: "100%"
+    height="auto" />
     </div>
-    <div class="top-logo2">
-        <img src='images/teamc-logo.jpg'>
+  </div>
+    <div class="video-button TEAMCvideo-button pull-left col-xs-4">
+        <img src='images/logos/NSIT-Logo.png' max-width = "100%"
+    height="auto" />
     </div>
-    <div class="video-button NSITvideo-button">
-        <img src='images/logos/TC LOGO.png' />
-    </div>
-    <div class="video-button TEAMCvideo-button">
-        <img src='images/logos/NSIT-Logo.png' />
-    </div>
-	<div class="block">
-		<div class="video-button">
-			<img src='images/HACKEAM.png' />
+	<div class="block" style="text-align: center;">
+
+		<div class="video-button" style="text-align: center;">
+			<img src='images/HACKEAM.png'  max-width: "100%"
+  height="auto" />
 		</div>
-		<h1>HACKEAM-18</h1>
+
+
+    <!-- Styles -->
+<style>
+.example1 {
+ height: 50px;
+ overflow: hidden;
+ position: relative;
+}
+.example1 h3 {
+ font-size: 3em;
+ color: limegreen;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+}
+</style>
+		<h1 class="text-center" align="center">HACKEAM-18</h1>
         <p>Trek. Report. Hack. Adapt. Achieve</p>
+        <br/>
+      <h3 style="color: #FFC107">Hackathon will be held on</h3>
+        <marquee behavior="alternate"><h3 style="color: #FF9800"> 10th February 2018</h3></marquee>
+
+<div class="row text-center">
+  <div class="col-xs-12">
+        <div id="clockdiv">
+        <div>
+          <span class="days"></span>
+          <div class="smalltext">Days</div>
+        </div>
+        <div>
+          <span class="hours"></span>
+          <div class="smalltext">Hours</div>
+        </div>
+        <div>
+          <span class="minutes"></span>
+          <div class="smalltext">Minutes</div>
+        </div>
+        <div>
+          <span class="seconds"></span>
+          <div class="smalltext">Seconds</div>
+        </div>
+      </div>
+    </div>
+</div>
 		<!-- <p><span class="color">T</span>rek/. <span class="color">E</span>xplore. <span class="color">A</span>nalyse. <span class="color">M</span>odel. <span class="color">C</span>onquer</p> -->
-		<a data-scroll href="#about" class="btn btn-transparent">Explore Us</a>
-	</div>
+
+  </div>
+
+
+
+
+
+
+      </div> <!-- /twelve -->
+
+   <!-- /scroll-icon -->
+    </div>
+
+
+
 </section>
 
  <!--
@@ -128,6 +234,7 @@ Welcome Slider
             <ul id="nav" class="nav navbar-nav navigation-menu">
                 <li><a data-scroll href="#body">Home</a></li>
                 <li><a data-scroll href="#about">About Us</a></li>
+                  <li><a data-scroll href="#guides">Guides</a></li>
                 <li><a data-scroll href="#register">Register</a></li>
                 <!-- <li><a data-scroll href="#teams">Teams</a></li> -->
 
@@ -135,8 +242,10 @@ Welcome Slider
 
                 <!-- <li><a data-scroll href="#timeline">Timeline</a></li> -->
                 <li><a data-scroll href="#phases123">Phases</a></li>
-                <li><a data-scroll href="#guides">Guides</a></li>
+
                 <li><a data-scroll href="#trekD">Trek Details</a></li>
+                <li><a data-scroll href="#team">Our Team</a></li>
+                <li><a data-scroll href="#sponsors">Sponsors</a></li>
                 <!-- <li><a data-scroll href="#sponsors">Sponsors</a></li> -->
 
                 <!-- <li><a data-scroll href="#team">Team</a></li> -->
@@ -201,7 +310,7 @@ TEAMC 2018 includes Agile Software Development, Data Management, Web Intelligenc
 							<!-- Express About Yourself -->
 							<div class="content text-center" style="color:black;min-height:40vh">
 								<!-- <h3 style="color:black">Our Objective</h3> -->
-								<p style="font-size:1.2em;">The main objective of this hackathon is to sensitize students and professionals about existing problems of the under privileged and lesser developed sections of our society and providing a platform whereby
+								<p style="font-size:1.2em;" align="justify">The main objective of this hackathon is to sensitize students and professionals about existing problems of the under privileged and lesser developed sections of our society and providing a platform whereby
                                      they can proactively develop and showcase technological
                                      solutions for these challenges. <br>
                                      The Hackathon will be held in phases after completion
@@ -279,7 +388,7 @@ TEAMC 2018 includes Agile Software Development, Data Management, Web Intelligenc
                     </div>
                     <h3>Naveen Gupta</h3>
                     <!-- <h4>Rural and Sub-urban</h4> -->
-    <p>Naveen Gupta, M.Com, M.C.A. and M.Phil has been a mentor to countless students and teachers, helping them achieve great heights of success. Currently the head of the IT division of St. Mark's School, his students boast several prestigious awards at national and international level competitions. He is a passionate teacher and imbibes a goal-oriented and dream-driven motivation in his pupils. Recognised and appreciated for his service, he has contributed to CBSE in some very dignified positions. To encourage the exhibition of one's creations for critical evaluations, he has organised many events including National and International Tect-Fest "Geek-a-Hertz".</p>
+    <p align="justify">Naveen Gupta, M.Com, M.C.A. and M.Phil has been a mentor to countless students and teachers, helping them achieve great heights of success. Currently the head of the IT division of St. Mark's School, his students boast several prestigious awards at national and international level competitions. He is a passionate teacher and imbibes a goal-oriented and dream-driven motivation in his pupils. Recognised and appreciated for his service, he has contributed to CBSE in some very dignified positions. To encourage the exhibition of one's creations for critical evaluations, he has organised many events including National and International Tect-Fest "Geek-a-Hertz".</p>
 
                 </div>
             </article>
@@ -291,7 +400,7 @@ TEAMC 2018 includes Agile Software Development, Data Management, Web Intelligenc
                     </div>
                     <h3>Manusheel Gupta</h3>
                     <!-- <h4>Rural and Sub-urban</h4> -->
-    <p>Manu Sheel Gupta is the Founder and Director of Aspiring Investments Corp and Software for Education, Entertainment and Training Activities. He has been associated with One Laptop Per Child(OLPC), working closely with governments and organisations in India, US, Paraguay and Sri Lanka. In the social profit sector, he has contributed at Harvard Business School India Trek Schoolhouse Fund Corp (India School Fund). He has also held several other key leadership and technical roles at OLPC.</p>
+    <p align="justify">Manu Sheel Gupta is the Founder and Director of Aspiring Investments Corp and Software for Education, Entertainment and Training Activities. He has been associated with One Laptop Per Child(OLPC), working closely with governments and organisations in India, US, Paraguay and Sri Lanka. In the social profit sector, he has contributed at Harvard Business School India Trek Schoolhouse Fund Corp (India School Fund). He has also held several other key leadership and technical roles at OLPC.</p>
 
                 </div>
             </article>
@@ -303,7 +412,7 @@ TEAMC 2018 includes Agile Software Development, Data Management, Web Intelligenc
                     </div>
                     <h3>Divyanshu Sharma</h3>
                     <!-- <h4>Rural and Sub-urban</h4> -->
-    <p>Divyanshu Sharma is a junior at Netaji Subas Institute of Technology. He is an explorer and his interests lie both on business and tech side of things. By co- founding FeedMonster Media, he wanted to change how MSMEs market their services digitally.
+    <p align="justify">Divyanshu Sharma is a junior at Netaji Subas Institute of Technology. He is an explorer and his interests lie both on business and tech side of things. By co- founding FeedMonster Media, he wanted to change how MSMEs market their services digitally.
 He loves building consumer products which touch the lives of common people.</p>
 
                 </div>
@@ -316,7 +425,7 @@ He loves building consumer products which touch the lives of common people.</p>
                     </div>
                     <h3>Aman Goyal</h3>
                     <!-- <h4>Education</h4> -->
-    <p>Aman Goyal presently works as a Big Data engineer in Guavus Networks. He has a dynamic professional carrier with previous associations with organizations like SAP, Shopzilla, Yes Bank , and InfoEdge. Aman is a Computer Science graduate of the 2012 batch of NSIT. He believes in continuous learning and is also an Associate Professor at EduPristine where he delivers classroom sessions on Big Data, Unix and Java. Also a sports enthusiast, he brings a unique perspective to the table.</p>
+    <p align="justify">Aman Goyal presently works as a Big Data engineer in Guavus Networks. He has a dynamic professional carrier with previous associations with organizations like SAP, Shopzilla, Yes Bank , and InfoEdge. Aman is a Computer Science graduate of the 2012 batch of NSIT. He believes in continuous learning and is also an Associate Professor at EduPristine where he delivers classroom sessions on Big Data, Unix and Java. Also a sports enthusiast, he brings a unique perspective to the table.</p>
 
                 </div>
             </article>
@@ -331,7 +440,7 @@ He loves building consumer products which touch the lives of common people.</p>
                     </div>
                     <h3>Mayank Jain</h3>
                     <!-- <h4>Rural and Sub-urban</h4> -->
-    <p>Mayank, a gem of NSIT, is automation engineer with 5+ years of experience in technical and social economic sector. He is revolutionizing the world with a aim to improve the social aspects having worked with Global Social Economy Forum, Urban Habitat Summit, Indian Student Parliament, Indo-Afghan Future Workshop, Co-founder of MicroX Foundation which aims to fix the broken food system through sustainable livelihood creation, promoting urban farming and brings producers and consumers closer.</p>
+    <p align="justify">Mayank, a gem of NSIT, is automation engineer with 5+ years of experience in technical and social economic sector. He is revolutionizing the world with a aim to improve the social aspects having worked with Global Social Economy Forum, Urban Habitat Summit, Indian Student Parliament, Indo-Afghan Future Workshop, Co-founder of MicroX Foundation which aims to fix the broken food system through sustainable livelihood creation, promoting urban farming and brings producers and consumers closer.</p>
 
                 </div>
             </article>
@@ -343,7 +452,7 @@ He loves building consumer products which touch the lives of common people.</p>
                     </div>
                     <h3>Mukul Gupta</h3>
                     <!-- <h4>Rural and Sub-urban</h4> -->
-    <p>Mukul Gupta presently works as a Computer Scientist at Adobe Systems where he works on developing high-performance and distributed cloud based computing systems. He is a Computer Science graduate of the 2013 batch of NSIT. During his college stint, he was passionate about competitive programming and frequently featured in the Indian Top 20 of Codechef monthly contests.</p>
+    <p align="justify">Mukul Gupta presently works as a Computer Scientist at Adobe Systems where he works on developing high-performance and distributed cloud based computing systems. He is a Computer Science graduate of the 2013 batch of NSIT. During his college stint, he was passionate about competitive programming and frequently featured in the Indian Top 20 of Codechef monthly contests.</p>
 
                 </div>
             </article>
@@ -355,7 +464,7 @@ He loves building consumer products which touch the lives of common people.</p>
                     </div>
                     <h3>Aarushi Jain</h3>
                     <!-- <h4>Rural and Sub-urban</h4> -->
-    <p>She is a 2015 Computer Engineering graduate from NSIT. She has always been a keen learner about a big breadth of computer science topics. She had dedicated her final year project to developing an efficient model of wireless sensor network for the smart irrigation application. She has been working with Adobe Systems since the last 2.5 years. During this time she has worked on many interesting projects in Adobe's Digital Marketing and Printing Technologies domain.</p>
+    <p align="justify">She is a 2015 Computer Engineering graduate from NSIT. She has always been a keen learner about a big breadth of computer science topics. She had dedicated her final year project to developing an efficient model of wireless sensor network for the smart irrigation application. She has been working with Adobe Systems since the last 2.5 years. During this time she has worked on many interesting projects in Adobe's Digital Marketing and Printing Technologies domain.</p>
 
                 </div>
             </article>
@@ -388,9 +497,10 @@ Start Call To Action
 			<div class="col-md-12 text-center">
 				<h2>Register</h2>
 				<p>
-				    Register in this new unique and exciting hackathon to win prizes worth a ton.
+				    Registeration Over!
+
 				</p>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSckm90OwewqAXCYVRUSWplnj4Ia6PpxYjnybtN4v5uU3LXWQw/viewform" target="_blank" class="btn btn-main">Click here to Register</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSckm90OwewqAXCYVRUSWplnj4Ia6PpxYjnybtN4v5uU3LXWQw/viewform" target="_blank" class="btn btn-main" disabled> Come Back Next time.</a>
 			</div>
 		</div> 		<!-- End row -->
 	</div>   	<!-- End container -->
@@ -670,7 +780,7 @@ All teams wishing to participate in the hackathon must register themselves by th
                                             <h3 >PHASE 2</h3>
                                             <h3>Design.Develop.Code</h3>
                                         <h4>
-                                   Teams will now begin the second part of their paper (Part B) that describes the system design of their proposed solution. All teams will be invited to be a part of the hackathon, HACKEAM 2018 during 27-28 Jan 2018. The implementation of their design will be done during the hackathon.
+                                   Teams will now begin the second part of their paper (Part B) that describes the system design of their proposed solution. All teams will be invited to be a part of the hackathon, HACKEAM 2018 during 10-11 February 2018. The implementation of their design will be done during the hackathon.
                                     </h4>
                                 </div>
                         </div>
@@ -719,7 +829,7 @@ All teams wishing to participate in the hackathon must register themselves by th
                                         <h4>
                                             Teams will get an excellent opportunity to      case their work in the prestigious International Conference  TEAMC 2018 during March 26-28, 2018 (<a href="https://www.teamc18.com">www.teamc18.com</a>) at NSIT, in front of an international audience of researchers, industry leaders and government officials. Efforts will be made to carry forward potentially promising submissions so that they can be fully developed into working prototypes and products with the assistance of incubation center.
 <br><br>
-Teams need to complete Part B of their paper by adding experimental results and conclusion and submit the final paper comprising both Part A and Part B, by 10 Feb, 2018. The total length of the paper should not exceed 14 pages. At least one member of each team will have to  register for TEAMC 2018 if they wish to present their paper.
+Teams need to complete Part B of their paper by adding experimental results and conclusion and submit the final paper comprising both Part A and Part B, by 28 Feb, 2018. The total length of the paper should not exceed 14 pages. At least one member of each team will have to  register for TEAMC 2018 if they wish to present their paper.
 <br><br>
 The paper submissions will be reviewed and selected papers will be invited to present their papers. They will be published in an indexed Journal with ISBN. The best paper will be given the <span class='color'>Best Paper Award</span> in Hackathon category.
                                     </h4>
@@ -790,8 +900,8 @@ The paper submissions will be reviewed and selected papers will be invited to pr
                     <!-- <a class="search-icon image-popup" data-effect="mfp-with-zoom" href="images/portfolio/portfolio-1.jpg" data-lightbox="image-1">
                         <i class="fa fa-flask"></i>
                     </a> -->
-                    <h4><a href="">AFMC base hostpital</a></h4>
-                    <p>Team Vector</p>
+                    <h4><a href="">GTB Hospital</a></h4>
+                    <p>Reboot Rebels</p>
                 </div>
             </div>
         </div>
@@ -1172,49 +1282,119 @@ Start Our Team
         </div>
       </div>
       <!-- /section title -->
-    </div>  		<!-- End row -->
+    </div>
 
-
-
-<div class="row">
-
-  <div class="col-md-4" >
-
-  <a href="https://education.github.com/">
-    <img class="img-responsive" src="images/GitHub_Logo_White.png" alt=""></a>
-
-  </div>
-
-<div class="col-md-4">
-  <p>&nbsp;
-  </p>
-<img class="img-responsive" src="images/ictacademy_2016.png" alt="">
+    <div class= "row">
+          <div class="col-md-4 col-xs-12" >
 <p>&nbsp;
 </p>
-</div>
 
-<div class="col-md-4">
+<p>&nbsp;
+</p>
+
+<p>&nbsp;
+</p>
+          <a href="https://developer.amazon.com/alexa-skills-kit/alexa-skills-developer-training">
+            <img class="img-responsive" src="images/Amazon_Alexa_Horizontal_RGB_White-Color.png" alt=""></a>
+    </div>
+
+    <div class="col-md-4 col-xs-12">
+      <p>&nbsp;
+      </p>
+      <a href="http://get.tech/">
+        <img class="img-responsive" src="images/rArtboard 1@2x.png" alt=""></a>
+    </div>
+
+    <div class="col-md-4 col-xs-12">
+      <p>&nbsp;
+      </p>
+      <a href="https://www.jetbrains.com/">
+        <img class="img-responsive" src="images/jetbrains-variant-4.png" alt=""></a>
+    </div>
+          </div>
+
+          <div class= "row">
+                <div class="col-md-4 col-xs-12 text-center" >
+                  <p>&nbsp;
+                  </p>
+                  <p>&nbsp;
+                  </p>
+                <a href="https://skillenza.com/">
+                  <img class="img-responsive" src="images/skillenza transparent.png" alt=""></a>
+          </div>
+
+          <div class="col-md-4 col-xs-12 text-center">
+            <p>&nbsp;
+            </p>
+            <p>&nbsp;
+            </p>
+            <a href="https://education.github.com/">
+              <img class="img-responsive" src="images/GitHub_Logo_White.png" alt=""></a>
+          </div>
+
+          <div class="text-center col-md-4 col-xs-12 text-center">
+            <p>&nbsp;
+            </p>
+            <a href="https://temboo.com/">
+              <img class="img-responsive" src="images/temboo-logo-white.png" alt=""></a>
+          </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+                  <a href="">
+                    <img class="img-responsive" src="images/Background (1).png" alt=""></a>
+                  </div>
+                  <div class="col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+                    <p>&nbsp;
+                    </p>
+                  <a href="https://www.geeksforgeeks.org/">
+                    <img class="img-responsive" src="images/gfg1.png" alt=""></a>
+                  </div>
+
+                  <div class="col-md-4 col-xs-12 text-center">
+                    <p>&nbsp;
+                    </p>
+                    <p>&nbsp;
+                    </p>
+                  <a href="https://www.sketchapp.com/">
+                    <img class="img-responsive" src="images/sketch-logo-dark-transparent@2x.png" alt=""></a>
+                  </div>
+
+              </div>
+              <div class="row">
+                <div class="col-md-4 col-xs-12 text-center">
+                  <a href="https://ubidots.com/"><img class="img-responsive" src="images/logo-ubidots.png"></a>
+                </div>
+                <div class="col-md-4 col-xs-12 text-center">
+                  <p>&nbsp;
+                  </p>
+                  <a href="http://www.wolfram.com/hackathons/"><img class="img-responsive" src="images/Hackathon Logo Wolfram 2018 Vector.png"></a>
+                </div>
+                <div class="col-md-4 col-xs-12 text-center">
+                  <p>&nbsp;
+                  </p>
+                  <a href="http://www.johnsnowlabs.com/"><img class="img-responsive text-center center" src="images/john-snow-labs-logo.png"></a>
+                </div>
+              </div>
+<div class="row">
+<div class="col-md-4 col-xs-12 text-center">
   <p>&nbsp;
   </p>
-<a href="https://skillenza.com/"><img class="img-responsive" src="images/skillenza.png" alt=""></a>
+
+<a href="http://www.hackerearth.com/"><img class="img-responsive" src="images/HE_logo.png"/></a>
 
 </div>
-<div class="col-md-4 col-md-offset-4  col-sm-6 col-xs-12  wow fadeInDown text-centers">
-  <img class="img-responsive" src="" alt="">
-      </div>
-    </div>
+</div>
 
-<div class= "row">
-      <div class="col-md-4" >
-      <a href="https://developer.amazon.com/alexa-skills-kit/alexa-skills-developer-training">
-        <img class="img-responsive" src="images/Amazon_Alexa_Horizontal_RGB_White-Color.png" alt=""></a>
+                              	<!-- End row -->
     </div>
-      </div>
 	<!-- End container -->
 </section>   <!-- End section -->
-
-
-
 
 
 
@@ -1229,7 +1409,7 @@ Start Our Team
 				<!-- testimonial wrapper -->
                 <div class="text-center">
 
-                    <h1>Rules and Regulations</h2>
+                    <h1><span  class="color">Rules and Regulations</span></h2>
                 </div>
 
 
@@ -1260,7 +1440,7 @@ The place of interest of treks may be chosen by participants themselves but shou
                             </h3>
                         </div>
                         <div class="item  ">
-                          <h3>7. Teams will begin the second part of paper,  part B ( for more details, visit <a href="https://www.teamc18.com">www.teamc18.com.</a>) , and will be invited to be a part of HACKEAM 2018 during 27-28 Jan. </h3>
+                          <h3>7. Teams will begin the second part of paper,  part B ( for more details, visit <a href="https://www.teamc18.com">www.teamc18.com.</a>) , and will be invited to be a part of HACKEAM 2018 during 10-11th February. </h3>
                         </div>
                         <div class="item  ">
                             <h3>8. Last date for completion and submission of paper(both part A and part B)  is 28th Feb, 2018. Late entries will not be entertained. </h3>
@@ -1269,6 +1449,66 @@ The place of interest of treks may be chosen by participants themselves but shou
                         <div class="item  ">
                             <h3>9. Atleast one member of each team selected for paper presentation will have to register for TeamC 2018  to be eligible to present their paper.  </h3>
                         </div>
+
+                </li>
+            </ul>
+					<!-- /testimonial single -->
+
+
+				</div>
+
+        <div class="text-center">
+
+            <h1><span  class="color">Instructions for Writing Report</span></h2>
+        </div>
+        <div id="testimonials" class="wow fadeInUp" data-wow-duration="500ms" data-wow-delay="100ms">
+
+					<!-- testimonial single -->
+                <ul>
+
+                <li>
+                        <div class="item ">
+                            <h3>  Phase 1 ends with you submitting a final report of your research work compiled after your team trek.
+      The format for the above mentioned follows :</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>The report should be 4-5 pages, single column, 11 font, single-spaced, with figs, tables, graphics, trek photographs.</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>  The sequence of content to be written in your report should be as listed below -</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>1. Title and authors</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>2. Abstract</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>3. Introduction and motivation
+                            </h3>
+                        </div>
+                        <div class="item  ">
+                          <h3>4. Background: Describe the context including the place visited, the socio-cultural and economic ecosystem of that place.</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>5. Experiences of the interaction</h3>
+                        </div>
+
+                        <div class="item  ">
+                            <h3>6. Questionnaire if any and it's analysis - for example, an analysis of psychometric questions measured on a Likert scale.</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>7. Problem identified</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>PAPER SUBMISSION FOR PHASE 1 :</h3>
+                        </div>
+                        <div class="item  ">
+                            <h3>  You will be required to mail the above-mentioned report in *PDF *format to submission.hackeam@gmail.com. The subject of the mail should be "HACKEAM- REPORT (PHASE 1)". The mail should include the team details (Team Name, Team captain, Trek Details(Name, Place, Date), Contact details).
+
+                              You will be updated with all other information as soon as the treks have ended and all teams have submitted their journals i.e. after 27th January 2018(deadline for submission of photo journals).</h3>
+                        </div>
+
 						<!-- client photo -->
 						<!-- <div class="client-thumb">
 							<img src="images/team/client-1.jpg" class="img-responsive" alt="Meghna">
@@ -1291,7 +1531,8 @@ The place of interest of treks may be chosen by participants themselves but shou
 					<!-- /testimonial single -->
 
 
-				</div>		<!-- end testimonial wrapper -->
+				</div>
+        		<!-- end testimonial wrapper -->
 			</div> 		<!-- end col lg 12 -->
 		</div>	    <!-- End row -->
 	</div>       <!-- End container -->
